@@ -1,0 +1,94 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style-type: none;	
+
+}
+body{
+	font-family: arial;
+	background-color: #FCF6F5;
+}
+nav{
+	background-color: #aa0a0a;
+	height: 80px;
+	width: 100%;
+}
+label.logos{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+}
+nav ul{
+	float: right;
+	margin-right: 20px;
+
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+
+}
+li a:hover{
+	 font-size: 150% ;
+    transition: .5s;
+    background-color: darkred;
+}
+
+
+li a:active{
+    color: darkred;
+}
+
+table,th,td{
+    width: 1300px;
+    height: 50px;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 35px;
+padding: 10px;
+}
+th{
+	font-size: 20px;
+	font-weight: bold;
+padding: 0px;
+background-color: #bc2b2b;
+color: white;
+}
+.bi{
+    border: 0px solid;
+    text-align: center;
+
+}
+.logo{
+    
+    width: 100px;
+    border-right: 0px solid;
+
+  border-left: 0px solid;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    color: black;
+
+
+}
+.bor{border-right: 0px solid;
+border-left: 0px solid;
+}
+.bard{border-right: 0px solid;
+	 border-top: 3px solid;
+    border-bottom: 3px solid;
+border-left: 0px solid;
+width: 100px;
+color: black;}
+.away{border-left: 0px solid;
+margin-left: 0px;
+}

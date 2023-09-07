@@ -1,0 +1,86 @@
+*{
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style-type: none;  
+
+}
+body{
+    font-family: arial;
+    background-color: #FCF6F5;
+    background-size: cover;
+background-repeat: no-repeat;
+height: 620px;}
+
+nav{
+    background-color: #aa0a0a;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+
+}
+li a:hover{
+    font-size: 150% ;
+    transition: .5s;
+    background-color: darkred;
+}
+
+li a:active{
+    color: darkred;
+}
+.a{
+    color: red;
+    font-size: 30px;
+    margin-right: 180px;
+
+}
+.b{color: red;
+    margin-right: 150px;
+    padding-left: 70px;
+    font-weight: bold;
+    
+
+}
+.c{color: red;
+    padding-left: 35px;
+}
+.d{color: red;
+    padding-left: 10px;
+}
+.e{float: right;
+line-height: 50px;}
+.f{color: red;
+padding-left: 50px;}
+.g{
+    padding-left: 120px;
+}
+.h{
+    padding-left: 80px;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    color: blue;
+    margin-top: 20px;
+height: 30px;
+}
